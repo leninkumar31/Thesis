@@ -1,0 +1,18 @@
+steps to run cpp code:
+g++ filaname.cpp 
+Steps to run cuda codes:
+1.ssh into libra clsuter
+2.ssh cn006
+3. nvcc -arch=sm_20 filename.cu
+------------------------
+input is in input.txt
+input format:
+no of vertices(n) no of edges(m)
+edge 1
+.
+.
+edge m
+
+------------------------
+
+
